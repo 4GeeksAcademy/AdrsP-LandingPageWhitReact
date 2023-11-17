@@ -2,8 +2,10 @@ import React from "react";
 
 const Footer = () => {
     return (
-        <footer class="mt-auto">
-        <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+        <footer class="bd-footer py-5 mt-5 bg-dark ">
+            <div class="container py-1 justify-content-center">
+                <p className="text-light text-center">He aca el footer</p>
+            </div>
         </footer>
     );
 };
